@@ -21,7 +21,7 @@ import com.admin.jira.request.UserRequest;
 
 @RequestMapping("/api")
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+//@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class UserController {
 
 	

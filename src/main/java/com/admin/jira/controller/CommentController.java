@@ -21,7 +21,7 @@ import com.admin.jira.request.CommentRequest;
 
 @RequestMapping("/api")
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+//@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CommentController {
 
 	@Autowired

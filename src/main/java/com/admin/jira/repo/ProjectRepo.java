@@ -7,7 +7,7 @@ import com.admin.jira.entity.Issue;
 import com.admin.jira.entity.Project;
 import com.admin.jira.entity.User;
 
-@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200")
 public interface ProjectRepo extends JpaRepository<Project, Integer> {
 
 	void save(User user);
