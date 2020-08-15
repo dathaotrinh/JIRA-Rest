@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.admin.jira.entity.Issue;
 
-//@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://angular-jira-clone.herokuapp.com/")
 public interface IssueRepo extends JpaRepository<Issue, Integer> {
 
 }
