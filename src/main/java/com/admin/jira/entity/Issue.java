@@ -51,5 +51,6 @@ public class Issue {
 	private int reporterid;
 	
 	private int projectid;
+	private String assignees;
 	
 }

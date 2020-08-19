@@ -69,6 +69,7 @@ public class IssueController {
 		issue.setReporterid(issue.getProjectid());
 		issue.setTimeRemaining(issue.getTimeRemaining());
 		issue.setTimeSpent(issue.getTimeSpent());
+		issue.setAssignees(issue.getAssignees());
 		
 		issueRepo.save(issue);
 
